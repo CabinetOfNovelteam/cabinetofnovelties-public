@@ -1,1 +1,1 @@
-Repo for the [Cabinet of Novelties](https://cabinetofnovelties.neocities.org).
+Repo for the [Cabinet of Novelties](https://cabinetofnovelties.com).
