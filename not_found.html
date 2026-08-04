@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>???</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+  </head>
+  <body style="background-color: rgb(255, 255, 255); overflow: hidden;">
+    <div class="err">
+      <a href="index.html"><img src="assets/404.webp" alt="" ></a>
+      
+    </div>
+  </body>
+</html>
+<style>
+.err {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 99vh;
+}
+img {
+    height: 55vh;
+    animation: fade 5s ease-in-out ;
+    transition: scale 1s;
+    scale: 1;
+}
+img:hover {
+  transition: scale 1s;
+  scale: 1.1;
+}
+@keyframes fade {
+  0% {opacity: 0; transform: translateY(6vh);}
+  25% {opacity: 0; transform: translateY(6vh);}
+  100% {opacity: 1; transform: translateY(0);}
+}
+</style>

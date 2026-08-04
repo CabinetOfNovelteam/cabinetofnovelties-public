@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cabinet of Novelties - Home</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="favicon" href="assets/icon/icon.gif" type="image/gif">
+  </head>
+
+<site-template-yay>
+
+            <div class="logo"></div>
+              <div style="height: 2em; width: 100%; background-image:url(./assets/divider.webp); background-repeat: repeat-x; background-position: center;"></div>
+              <div>
+                <div class="maingrid">
+                  <div class="shopButton">
+                    <a href="shop.html" class="fill"></a>
+                  </div>
+                  <div class="aboutButton">
+                    <a href="info.html" class="fill"></a>
+                  </div>
+                  <div class="gamesButton">
+                    <a href="games.html" class="fill"></a>
+                  </div>
+                </div>
+              </div>
+      
+</site-template-yay>
+<script src="customelementshit.js"></script>
+<script src="stuffs.js"></script>
+<style>
+  .shopButton {
+    background-image: url(assets/maingraphics/shop.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 10em;
+    grid-area: shop;
+  }
+  .shopButton:hover {
+    background-image: url(assets/maingraphics/shop_hover.webp);
+    cursor: pointer;
+    scale: 1.01;
+    filter: drop-shadow(0px 0px 0.3em red);
+  }
+  .aboutButton {
+    background-image: url(assets/maingraphics/about.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 4em;
+    grid-area: about;
+  }
+  .aboutButton:hover {
+    background-image: url(assets/maingraphics/about-hover.webp);
+    cursor: pointer;
+    scale: 1.01;
+    filter: drop-shadow(0px 0px 0.3em red);
+  }
+  .gamesButton {
+    background-image: url(assets/maingraphics/games.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 4.5em;
+    grid-area: games;
+  }
+  .gamesButton:hover {
+    background-image: url(assets/maingraphics/games-hover.webp);
+    cursor: pointer;
+    scale: 1.01;
+    filter: drop-shadow(0px 0px 0.3em red);
+  }
+
+  .maingrid {
+    display: grid;
+    grid-template-areas: 
+    "shop shop"
+    "games about"
+    ;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
+  a.fill {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+</style>

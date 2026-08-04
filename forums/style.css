@@ -1,0 +1,189 @@
+@font-face {
+  font-family: 'shitfuck windows';
+  src: url('../assets/pixelated-times-new-roman.otf');
+
+}
+@font-face {
+  font-family: Hypnosis;
+  src: url('../assets/Hypnosis.ttf'); 
+} 
+
+.top {
+  display: flex;
+  justify-content: center;
+}
+
+.top button {
+  margin-top: 3.5em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+body {
+        background:radial-gradient(rgba(255, 0, 0, 0),black), url(../assets/bgpattern.webp);
+        color: #ffffff;
+        font-family: 'shitfuck windows';
+        font-size: 2em;
+        line-height: 0.7em;
+        margin: 0px;
+        text-align: center;
+      }
+
+.logo {
+    background-image: url(lgoo.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 19em;
+    height: 8em;
+    margin: 1em;
+}
+
+.main {
+  background-color: rgb(42, 20, 20);
+  border: white 0.1em solid;
+  border-radius: 0.5em;
+  width: 40em;
+}
+
+.replyBody p {
+  text-align: left;
+}
+
+.post {
+  background: linear-gradient(rgb(71, 33, 33),rgb(16, 9, 9));
+  border: rgb(27, 11, 11) 0.2em solid;
+  border-radius: 0.5em;
+  width: 95%;
+  min-height: 2.5em;
+  margin: 2%;
+  display: flex;
+  font-size: 80%;
+  justify-content:space-between;
+}
+.forumtop {
+  background-color: black;
+  border: white 0.1em solid;
+  border-radius: 0.5em;
+  width: 95%;
+  height: 0.7em;
+  margin: 0.5em;
+  display: flex;
+  justify-content:space-between;
+  padding: 0.2em;
+}
+
+.post div {
+  margin: 0.5em;
+  width: 25%;
+}
+button {
+    font-family: "shitfuck windows";
+    min-width: 4.5em;
+    font-size: 1em;
+    border-radius: 2em;
+    background: radial-gradient(rgb(255, 227, 227),rgb(80, 63, 63));
+    border:solid 0.07em;
+    border-color: rgb(28, 14, 20);
+    line-height: 0.5;
+    height: 2em;
+    margin: 0.2em;
+    
+  }
+
+  button:hover {
+        background: radial-gradient(rgb(255, 237, 237),rgb(102, 84, 84));
+  }
+
+  button:active {
+        background: radial-gradient(rgb(112, 101, 101),rgb(32, 25, 25));
+  }
+
+  .footer {
+    background: linear-gradient(rgba(0, 0, 0, 0), black);
+    height: 10em;
+    color: grey;
+  }
+
+  .reply {
+    min-height: 8em;
+    width: 90%; 
+    margin: 2%; 
+    background: linear-gradient(rgb(71, 33, 33),rgb(16, 9, 9)); 
+    display: flex; 
+    flex-direction: row; 
+    border-radius: 1em;
+    border: 0.2em solid rgb(24, 9, 9);
+  }
+
+  .userCard {
+    width: 40%;
+  }
+
+  .userCard img {
+    padding: 0.5em;
+    width: 50%;
+    border-radius: 0.5em;
+  }
+
+  .replyBody {
+    width: 60%;
+    padding: 0.5em;
+    filter: drop-shadow(0.1em 0.1em 0.1em black );
+  }
+
+  .replyer {
+    background-color: rgb(34, 27, 27);
+    width: 90%;
+  }
+
+  .replyer::first-line {
+    color: gold;
+  }
+
+  .media {
+    width: 100%;
+    height: auto;
+  }
+
+  .replyBody img {
+    width: 60%;
+  }
+
+   @media screen and (max-width:1000px) {
+      .userCard img {
+        width: 60%;
+      }
+      .top {
+        flex-direction: column;
+      }
+      button {
+        min-height: 2em;
+        margin: 0.1em;
+      }
+      .logo {
+        height: 4em;
+        width: auto;
+      }
+
+      .top button {
+        margin-top: 0;
+      }
+
+      .replyBody {
+        margin: 0.5em;
+        font-size: 0.75em;
+        line-height: 0.75em;
+      }
+
+      .main {
+        width: 80%;
+      }
+
+      .replyBody img {
+        width: 100%;
+      }
+      
+    }
